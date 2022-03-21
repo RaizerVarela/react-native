@@ -8,6 +8,6 @@ export default _=>{
   }else if(Platform.OS === 'ios'){
     return <Text style={Estilo.fontG}>Android</Text>
   }else{
-    return <Text style={Estilo.fontG}>Eita!!!</Text>
+    return <Text style={Estilo.fontG}>{Platform.OS}</Text>
   }
 }
