@@ -3,8 +3,6 @@ import {Text} from 'react-native'
 import Estilo from '../estilo'
 import produtos from './Produtos'
 
-import Produtos from './Produtos'
-
 export default props=>{
   
   function obterLista(){
